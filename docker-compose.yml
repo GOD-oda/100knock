@@ -2,7 +2,6 @@ version: '3'
 services:
   app:
     build: ./
-    command: pipenv run app
     volumes:
       - ./:/var/www/html
       - packages:/root/.local/share
